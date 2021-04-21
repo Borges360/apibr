@@ -21,6 +21,6 @@ target/
 *.ipr
 
 ### Docker Data ###
-.docler/data
-.docker/jenkins-data
-.docker-mysql-data
+.docler/data/*
+.docker/jenkins_data/*
+.docker/mysql-data/*
