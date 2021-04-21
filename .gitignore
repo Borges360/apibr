@@ -1,9 +1,6 @@
 
 HELP.md
-target/
 !.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
 
 ### STS ###
 .apt_generated
@@ -21,6 +18,8 @@ target/
 *.ipr
 
 ### Docker Data ###
-.docler/data/*
-.docker/jenkins_data/*
-.docker/mysql-data/*'.idea' 
+
+.'.idea/*'
+/docker/mysql-data/
+/docker/jenkins_data/
+/docker/data/
