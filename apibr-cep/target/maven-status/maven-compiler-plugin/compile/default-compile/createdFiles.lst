@@ -1,7 +1,7 @@
-io\apibr\cep\core\Endereco$EnderecoBuilder.class
+io\apibr\cep\core\domain\Cidade.class
 io\apibr\cep\adapters\api\EnderecoResponse$EnderecoResponseBuilder.class
-io\apibr\cep\core\Endereco.class
-io\apibr\cep\core\Cidade.class
+io\apibr\cep\core\domain\Endereco.class
+io\apibr\cep\core\domain\Endereco$EnderecoBuilder.class
 io\apibr\cep\adapters\data\EnderecoData.class
 io\apibr\cep\adapters\controller\BuscaCEPController.class
 io\apibr\cep\adapters\data\CidadeData.class

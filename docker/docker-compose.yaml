@@ -4,6 +4,7 @@ networks:
   mysql-compose-network:
     driver: bridge
   monitor-net:
+    driver: bridge
 
 
 services:
@@ -56,6 +57,9 @@ services:
       org.label-schema.group: "monitoring"
 
   grafana:
+    build:
+      context: ./
+      dockerfile: Dockerfile
     image: grafana/grafana:latest
     container_name: monitoring_grafana
     restart: unless-stopped
@@ -73,6 +77,8 @@ services:
       - GF_USERS_ALLOW_SIGN_UP=false
     networks:
       - monitor-net
+    env_file:
+      - ../grafana/config.env
     labels:
       org.label-schema.group: "monitoring"
 
