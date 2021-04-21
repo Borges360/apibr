@@ -1,0 +1,11 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Datasource local storage ignored files
+/../../../../:\Desenvolvimento\apibr.io\.idea/dataSources/
+/../../../../:\Desenvolvimento\apibr.io\docker/data
+/../../../../:\Desenvolvimento\apibr.io\docker/jenkins-data
+/../../../../:\Desenvolvimento\apibr.io\docker/mysql-data
+/dataSources.local.xml
+# Editor-based HTTP Client requests
+/httpRequests/

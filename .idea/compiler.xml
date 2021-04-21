@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="apibr-cnpj" />
+        <module name="apibr-datas" />
+        <module name="apibr-cep" />
+        <module name="apibr-application" />
+        <module name="apibr-financas" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="apibr" target="1.8" />
+      <module name="apibr-application" target="8" />
+      <module name="apibr-cep" target="8" />
+      <module name="apibr-cnpj" target="8" />
+      <module name="apibr-datas" target="8" />
+      <module name="apibr-financas" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="apibr-application" options="-parameters" />
+      <module name="apibr-cep" options="-parameters" />
+      <module name="apibr-cnpj" options="-parameters" />
+      <module name="apibr-datas" options="-parameters" />
+      <module name="apibr-financas" options="-parameters" />
+    </option>
+  </component>
+</project>
