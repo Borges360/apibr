@@ -1,9 +1,0 @@
-io\apibr\cep\core\domain\Cidade.class
-io\apibr\cep\adapters\api\EnderecoResponse$EnderecoResponseBuilder.class
-io\apibr\cep\core\domain\Endereco.class
-io\apibr\cep\core\domain\Endereco$EnderecoBuilder.class
-io\apibr\cep\adapters\data\EnderecoData.class
-io\apibr\cep\adapters\controller\BuscaCEPController.class
-io\apibr\cep\adapters\data\CidadeData.class
-io\apibr\cep\adapters\api\EnderecoResponse.class
-io\apibr\cep\adapters\repository\EnderecoRespository.class
