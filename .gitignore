@@ -23,4 +23,4 @@ target/
 ### Docker Data ###
 .docler/data/*
 .docker/jenkins_data/*
-.docker/mysql-data/*
+.docker/mysql-data/*'.idea' 
