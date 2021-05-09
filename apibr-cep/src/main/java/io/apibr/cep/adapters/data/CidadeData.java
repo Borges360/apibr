@@ -13,11 +13,11 @@ import javax.persistence.Table;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name="cepbr_cidade")
+@Table(name="cidade")
 public class CidadeData {
 
     @Id
-    @Column(name = "id_cidade")
+    @Column(name = "ID_CIDADE")
     private Integer idCidade;
 
     @Column(name = "uf")
@@ -25,5 +25,11 @@ public class CidadeData {
 
     @Column(name = "cidade")
     private String cidade;
+
+    @Column(name = "COD_IBGE")
+    private String codIbge;
+
+    @Column(name = "AREA")
+    private Double area;
 
 }

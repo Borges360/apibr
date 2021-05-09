@@ -10,7 +10,7 @@ import javax.persistence.*;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Table(name="cepbr_endereco")
+@Table(name="endereco")
 public class EnderecoData {
 
     @Id
