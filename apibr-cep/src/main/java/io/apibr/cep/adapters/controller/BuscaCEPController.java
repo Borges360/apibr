@@ -1,6 +1,7 @@
 package io.apibr.cep.adapters.controller;
 
 import io.apibr.cep.adapters.api.EnderecoResponse;
+
 import io.apibr.cep.adapters.repository.EnderecoRespository;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiResponse;

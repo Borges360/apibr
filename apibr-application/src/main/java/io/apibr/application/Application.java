@@ -8,7 +8,7 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @ComponentScan(basePackages = {"io.apibr.cep.*"})
-@EnableJpaRepositories(basePackages = {"io.apibr.cep.adapters.repository."})
+@EnableJpaRepositories(basePackages = {"io.apibr.cep.adapters.repository"})
 @EntityScan(basePackages = {"io.apibr.cep.adapters.data"})
 @EnableAutoConfiguration
 @EnableSwagger2
