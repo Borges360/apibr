@@ -23,3 +23,4 @@ HELP.md
 /docker/mysql-data/
 /docker/jenkins_data/
 /docker/data/
+/aws/felipedev_accessKeys.csv

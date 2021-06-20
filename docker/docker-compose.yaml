@@ -55,8 +55,9 @@ services:
     ports:
       - 9090:9090
     links:
-      - cadvisor:cadvisor
       - node-exporter:node-exporter
+    networks:
+      - monitoring
 
   node-exporter:
     image: prom/node-exporter:latest
@@ -64,20 +65,8 @@ services:
     restart: unless-stopped
     expose:
       - 9100
-
-  cadvisor:
-    image: google/cadvisor:latest
-    container_name: monitoring_cadvisor
-    restart: unless-stopped
-    volumes:
-      - ../cadvisor/:/rootfs:ro
-      - ../cadvisor/var/run:/var/run:rw
-      - ../cadvisor/sys:/sys:ro
-      - ../cadvisor/var/lib/docker/:/var/lib/docker:ro
-    expose:
-        - 8080
-    ports:
-      - 8082:8080
+    networks:
+      - monitoring
 
   grafana:
     image: grafana/grafana:latest
@@ -92,5 +81,6 @@ services:
       - GF_USERS_ALLOW_SIGN_UP=false
     ports:
       - 3000:3000
-
+    networks:
+      - monitoring
 
