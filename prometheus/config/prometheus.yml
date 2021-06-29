@@ -16,10 +16,4 @@ scrape_configs:
     static_configs:
       - targets: [ "apibr:8080" ]
 
-  - job_name: 'node-exporter'
-    static_configs:
-      - targets: [ 'mon_node-exporter:9100' ]
 
-  - job_name: 'cadvisor'
-    static_configs:
-      - targets: [ 'mon_cadvisor:8080' ]

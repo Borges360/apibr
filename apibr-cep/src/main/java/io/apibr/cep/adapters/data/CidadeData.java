@@ -1,6 +1,7 @@
 package io.apibr.cep.adapters.data;
 
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
@@ -13,6 +14,7 @@ import javax.persistence.Table;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@Builder
 @Table(name="cidade")
 public class CidadeData {
 
